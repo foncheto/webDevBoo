@@ -1,0 +1,51 @@
+body {
+  background-color: #f0f0f0; /* neutral gray background */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 50%; /* set the width of the container */
+  margin: 0 auto; /* center the container horizontally */
+  background-color: #fff; /* neutral white background for the container */
+  padding: 2em; /* add some padding to the container */
+  border: 1px solid #ccc; /* add a light gray border to the container */
+  border-radius: 5px; /* add rounded corners to the container */
+}
+
+h1 {
+  text-align: center; /* center the heading */
+  color: #333; /* neutral dark gray text color */
+}
+
+form {
+  margin-top: 2em; /* add some margin to the form */
+}
+
+label {
+  display: block; /* make the label a block element */
+  color: #333; /* neutral dark gray text color */
+  margin-bottom: 0.5em; /* add some margin to the label */
+}
+
+input[type="text"], input[type="password"] {
+  padding: 0.5em; /* add some padding to the input fields */
+  border: 1px solid #ccc; /* add a light gray border to the input fields */
+  border-radius: 5px; /* add rounded corners to the input fields */
+  width: 100%; /* make the input fields fill the width of the container */
+}
+
+input[type="submit"] {
+  background-color: #4CAF50; /* green color for the submit button */
+  color: #fff; /* white text color for the submit button */
+  padding: 0.5em 1em; /* add some padding to the submit button */
+  border: none; /* remove the border from the submit button */
+  border-radius: 5px; /* add rounded corners to the submit button */
+  cursor: pointer; /* change the cursor to a pointer on hover */
+  margin-top: 1em; /* add some margin to the submit button */
+}
+
+input[type="submit"]:hover {
+  background-color: #3e8e41; /* darken the background color on hover */
+}
